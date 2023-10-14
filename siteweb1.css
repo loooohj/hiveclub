@@ -1,0 +1,120 @@
+
+.contenu{
+   background-image: url(img2.jpg),url(img1.jpg),url(img3.jpg);
+   background-repeat: no-repeat,no-repeat,no-repeat;
+   background-position: top left,top center,top right;
+   background-size:  calc(100% / 3) 716px,calc(100% / 3) 716px ,calc(100% / 3) 716px;
+   min-width: 1390px;
+   height: 716px;
+   margin-bottom: 0;
+}
+
+div.form1{
+    font-family: 'Aclonica' , sans-serif;
+    font-size:150%;
+    color:white;
+}
+
+p.a{
+    display: inline-block;
+    margin-top: 100px;
+}
+
+div.form2{
+    color:white;
+    font-size: 110%;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+p.b{
+    display: inline-block;
+    margin-top: 150px;
+
+}
+
+div.line{
+    width:200px;
+    height:1px;
+    background-color: white;
+   
+}
+body{
+    height:713px;
+    margin:0 0 0 0;
+}
+
+.bande{
+    background-color:rgba(142, 136, 136, 0.53);
+    text-align: center;
+    color:white;
+    font-family: 'ABeeZee', sans-serif;
+    margin-top: 15%;
+    padding-bottom:5%;
+    font-size: 110%;
+    padding-top: 1%;
+    padding-left: 4%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 1480px )and (min-width:0px) { 
+    .bande{
+
+        margin-top: 16.5%;
+        
+
+    }}
+
+
+
+
+
+/*.social-icons{
+    font-size: 30px;
+    
+}*/
+.facebook{
+    left:calc(100% / 6);
+    position: absolute;
+    top:50%;
+    color: white;
+    font-size: 30px;
+    }
+.instagram{
+    left:calc(100% / 2 + 1%);
+    position: absolute;
+    top:50%;
+    color: white;
+    font-size: 30px;
+}
+.twitter{
+    left:calc(100% * 5  / 6);
+    position: absolute;
+    top:50%; 
+    color: white;
+    font-size: 30px;
+}
+section.description{
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    height: 716px;
+    background-size: 100%;
+
+
+}
+div.bande2{
+    background-color:rgba(142, 136, 136, 0.53);
+    padding:20% 20% 20% 20%;
+}
+
+
+
+
+
+
+
+    
+    
+   
+ 
+
+
+
